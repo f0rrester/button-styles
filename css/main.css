@@ -7,52 +7,61 @@ html {
   box-sizing: inherit;
 }
 
-a {
+.btn {
+  text-decoration: none;
+  background-color: #333;
+  color: #fff;
   display: inline-block;
   vertical-align: middle;
-  padding: .5rem;
   text-align: center;
   text-decoration: none;
-  border padding: .4em .75em .3em;
+  padding: .4em .75em .3em;
   border-radius: 8px;
   border-width: 3px;
   margin: .5em;
-  font-size: none;
 }
 
-.btn {
-  text-decoration: none;
-  text-decoration: none;
+.btn:hover {
   background-color: #000;
+}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+  font-size: inherit
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  color: #000;
+  border: 3px solid #000;
+}
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border: 3px solid #666;
+}
+
+.btn-warning {
+  background-color: #f33;
   color: #fff;
 }
 
- .btn-subtle {
-   color: #fff;
-   text-decoration: none;
-   background-color: #ccc;
-   font-size: inherit
- }
+.btn-warning:hover {
+  background-color: #933;
+}
 
- .btn-ghost {
-   text-decoration: none;
-   background-color: #fff;
-   color: #000;
-   border: 3px solid #000;
- }
+.btn-big {
+  font-size: 1.5rem;
+  text-decoration: none;
+}
 
- .btn-warning {
-   text-decoration: none;
-   background-color: #f33;
-   color: #fff;
- }
-
- .btn-big {
-   font-size: 1.5rem;
-   text-decoration: none;
- }
-
- .btn-small {
-   font-size: .875rem;
-   text-decoration: none;
- }
+.btn-small {
+  font-size: .875rem;
+  text-decoration: none;
+}
